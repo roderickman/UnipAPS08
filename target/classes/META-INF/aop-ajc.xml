@@ -1,0 +1,18 @@
+<aspectj>
+<aspects>
+<aspect name="com.rodrigo.meioambiente.domain.Meioambiente_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.rodrigo.meioambiente.domain.Pessoas_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.rodrigo.meioambiente.domain.Meioambiente_Roo_ToString"/>
+<aspect name="com.rodrigo.meioambiente.web.MeioambienteController_Roo_Controller"/>
+<aspect name="com.rodrigo.meioambiente.domain.Meioambiente_Roo_Jpa_Entity"/>
+<aspect name="com.rodrigo.meioambiente.domain.Pessoas_Roo_Configurable"/>
+<aspect name="com.rodrigo.meioambiente.domain.Pessoas_Roo_ToString"/>
+<aspect name="com.rodrigo.meioambiente.domain.Pessoas_Roo_Jpa_Entity"/>
+<aspect name="com.rodrigo.meioambiente.domain.Pessoas_Roo_JavaBean"/>
+<aspect name="com.rodrigo.meioambiente.web.PessoasController_Roo_Controller"/>
+<aspect name="com.rodrigo.meioambiente.domain.Meioambiente_Roo_JavaBean"/>
+<aspect name="com.rodrigo.meioambiente.domain.Meioambiente_Roo_Configurable"/>
+<aspect name="com.rodrigo.meioambiente.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+</aspects>
+</aspectj>
+

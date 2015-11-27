@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show2 id="ps_com_rodrigo_meioambiente_domain_Meioambiente" object="${meioambiente}" path="/meioambientes" z="user-managed">
+        <field:display2 field="descricao" id="s_com_rodrigo_meioambiente_domain_Meioambiente_descricao" object="${meioambiente}" z="user-managed"/>
+        <field:display2 date="true" dateTimePattern="${meioambiente_data_hr_date_format}" field="data_hr" id="s_com_rodrigo_meioambiente_domain_Meioambiente_data_hr" object="${meioambiente}" z="user-managed"/>
+        <field:display2 field="local_rua" id="s_com_rodrigo_meioambiente_domain_Meioambiente_local_rua" object="${meioambiente}" z="user-managed"/>
+        <field:display2 field="local_numero" id="s_com_rodrigo_meioambiente_domain_Meioambiente_local_numero" object="${meioambiente}" z="user-managed"/>
+        <field:display2 field="local_complemento" id="s_com_rodrigo_meioambiente_domain_Meioambiente_local_complemento" object="${meioambiente}" z="user-managed"/>
+        <field:display2 field="local_cidade" id="s_com_rodrigo_meioambiente_domain_Meioambiente_local_cidade" object="${meioambiente}" z="user-managed"/>
+        <field:display2 field="local_estado" id="s_com_rodrigo_meioambiente_domain_Meioambiente_local_estado" object="${meioambiente}" z="user-managed"/>
+    </page:show2>
+</div>

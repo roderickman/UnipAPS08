@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list2 id="pl_com_rodrigo_meioambiente_domain_Meioambiente" items="${meioambientes}" z="user-managed">
+        <table:table2 data="${meioambientes}" id="l_com_rodrigo_meioambiente_domain_Meioambiente" path="/meioambientes" z="user-managed">
+            <table:column2 id="c_com_rodrigo_meioambiente_domain_Meioambiente_descricao" property="descricao" z="user-managed"/>
+            <table:column2 date="true" dateTimePattern="${meioambiente_data_hr_date_format}" id="c_com_rodrigo_meioambiente_domain_Meioambiente_data_hr" property="data_hr" z="user-managed"/>
+            <table:column2 id="c_com_rodrigo_meioambiente_domain_Meioambiente_local_rua" property="local_rua" z="user-managed"/>
+            <table:column2 id="c_com_rodrigo_meioambiente_domain_Meioambiente_local_numero" property="local_numero" z="user-managed"/>
+            <table:column2 id="c_com_rodrigo_meioambiente_domain_Meioambiente_local_complemento" property="local_complemento" z="user-managed"/>
+            <table:column2 id="c_com_rodrigo_meioambiente_domain_Meioambiente_local_cidade" property="local_cidade" z="user-managed"/>
+        </table:table2>
+    </page:list2>
+</div>

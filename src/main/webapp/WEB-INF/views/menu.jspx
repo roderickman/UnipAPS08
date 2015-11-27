@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" class="well sidebar-nav" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu2 id="_menu" z="user-managed">
+        <menu:category2 id="c_pessoas" z="user-managed">
+            <menu:item2 id="i_pessoas_new" messageCode="global_menu_new" url="/pessoases?form" z="user-managed"/>
+            <menu:item2 id="i_pessoas_list" messageCode="global_menu_list" url="/pessoases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+        </menu:category2>
+        <menu:category2 id="c_meioambiente" z="user-managed">
+            <menu:item2 id="i_meioambiente_new" messageCode="global_menu_new" url="/meioambientes?form" z="user-managed"/>
+            <menu:item2 id="i_meioambiente_list" messageCode="global_menu_list" url="/meioambientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="user-managed"/>
+        </menu:category2>
+    </menu:menu2>
+</div>

@@ -1,0 +1,96 @@
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-25 11:31:43
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-25 11:31:45
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 01:05:48
+project setup --topLevelPackage com.rodrigo.meioambiente
+hint
+persistence setup --provider HIBERNATE --database MYSQL
+entity jpa --class ~.domain.meioambiente
+field string --fieldName descricao --notNull --sizeMax 200
+field date --type java.util.Date --fieldName data_hr --notNull 
+field string --fieldName local_rua --notNull --sizeMax 200
+field string --fieldName local_numero --notNull --sizeMax 15
+field string --fieldName local_complemento --sizeMax 50
+field string --fieldName local_cidade --notNull --sizeMax 100
+field string --fieldName local_estado --notNull --sizeMax 100
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 01:29:37
+entity jpa --class ~.domain.Pessoas
+field string --fieldName cidade --notNull --sizeMax 200
+field string --fieldName nome --notNull --sizeMax 200
+field string --fieldName rg --notNull --sizeMax 20
+field string --fieldName cpf --notNull --sizeMax 25
+field string --fieldName telefone --notNull --sizeMax 15
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 01:42:27
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 01:42:33
+// [failed] entity jpa --class ~.domain.meioambiente
+controller all --package  ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 01:55:02
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 02:10:28
+// [failed] entity jpa --class ~.domain.Meioambiente
+entity jpa --class ~.domain.denuncias
+field set --fieldName id_pessoa --type ~.domain.Pessoas
+// [failed] field set --fieldName id_pessoa --type ~.domain.Pessoas --cardinality ONE_TO_MANY --mappedBy pessoas
+field set --fieldName id_pessoa --type ~.domain.Pessoas --cardinality ONE_TO_MANY --mappedBy pessoas
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 02:18:36
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 03:05:01
+controller all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 03:07:08
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 08:48:48
+controller all --package ~.web
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 08:50:28
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 08:55:12
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 08:55:27
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 09:01:23
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 09:01:43
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 09:17:19
+web mvc all --package  ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 09:17:34
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 09:20:00
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 09:20:16
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 12:18:23
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 12:18:36
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 12:28:07
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 12:28:18
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 12:29:59
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 12:30:10
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 12:33:31
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 12:33:40
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 12:46:15
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 12:46:33
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 12:52:21
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 12:52:49
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 13:01:56
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 13:02:09
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log opened at 2015-11-26 13:04:21
+web mvc all --package ~.web
+quit
+// Spring Roo 2.0.0.M1 [rev 33e5d76] log closed at 2015-11-26 13:04:33

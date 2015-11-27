@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show2 id="ps_com_rodrigo_meioambiente_domain_Pessoas" object="${pessoas}" path="/pessoases" z="BBQetqZfYcvqHZiW9aNayiFsYuA=">
+        <field:display2 field="cidade" id="s_com_rodrigo_meioambiente_domain_Pessoas_cidade" object="${pessoas}" z="9JY2d+iL5wohSlm6CkqR9HT+rZU="/>
+        <field:display2 field="nome" id="s_com_rodrigo_meioambiente_domain_Pessoas_nome" object="${pessoas}" z="sCJov9RR4rBtI/tznVBee7fWaNA="/>
+        <field:display2 field="rg" id="s_com_rodrigo_meioambiente_domain_Pessoas_rg" object="${pessoas}" z="S5eyWOxX6vOgl7KU7xQr1YrgjhU="/>
+        <field:display2 field="cpf" id="s_com_rodrigo_meioambiente_domain_Pessoas_cpf" object="${pessoas}" z="Dvam8/yP0Y+1DZLXC/T17yYUpC0="/>
+        <field:display2 field="telefone" id="s_com_rodrigo_meioambiente_domain_Pessoas_telefone" object="${pessoas}" z="vkKqoPmiMj9qw8MToBe19zVl17c="/>
+    </page:show2>
+</div>
